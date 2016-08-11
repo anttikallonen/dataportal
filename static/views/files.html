@@ -1,0 +1,52 @@
+<div layout="row">
+  <span flex></span>
+  <div layout-align="end center">
+    <md-button class="md-raised md-primary" layout-align="end end" ngf-max-size="500MB" ngf-select="upload($file)">
+      Lataa tiedosto
+    </md-button>
+  </div>
+  <div layout-align="center center">
+    <md-button ng-click="showHelpDialog($event, 'Tässä näkymässä voit valita ladattavaksi tiedostoja tutkimustietokantaan painamalla \'Lataa Tiedosto\'-painiketta. Yksittäisen tiedoston suurin koko on 500 megatavua.')" class="md-icon-button md-primary" aria-label="Help">
+      <ng-md-icon icon="help"></ng-md-icon>
+    </md-button>
+  </div>
+</div>
+
+<h1 ng-show="(!files.length && !pendingFiles.length)" class="md-title">Ei ladattuja tiedostoja</h1>
+<!-- PENDING FILES -->
+<md-card class="md-whiteframe-z2" ng-repeat="file in pendingFiles">
+  <md-card-content layout-align="center center" layout="row">
+    <div layout="row">
+    <ng-md-icon icon="insert_drive_file"></ng-md-icon>
+    <p> {{file.name}} </p>
+    </div>
+    <span flex></span>
+    <div flex="30">
+    <p> Ladataan tiedostoa... {{file.complete}}%</p>
+    <md-progress-linear md-mode="determinate" value="{{file.complete}}"></md-progress-linear>
+    </div>
+  </md-card-content>
+</md-card>
+
+<!-- REAL FILES -->
+<md-card class="md-whiteframe-z2" ng-repeat="file in files">
+  <md-card-content layout-align="center center" layout="row">
+    <div layout="row">
+    <ng-md-icon icon="insert_drive_file"></ng-md-icon>
+    <p> {{file.filename}} </p>
+    </div>
+    <span flex></span>
+      <md-menu>
+      <md-button aria-label="Open menu" class="md-icon-button" ng-click="openMenu($mdOpenMenu, $event)">
+        <ng-md-icon md-menu-origin icon="more_vert"></ng-md-icon>
+      </md-button>
+      <md-menu-content width="4">
+        <md-menu-item>
+          <md-button ng-click="removeItem(file.id)">
+            Poista
+          </md-button>
+        </md-menu-item>
+      </md-menu-content>
+    </md-menu>
+  </md-card-content>
+</md-card>

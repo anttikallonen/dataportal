@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/environment/lib/python2.7/site-packages" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 2.7.6 virtualenv at ~/Private/versioncontrol/Python/dataportal/environment" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="dataportal node_modules" level="project" />
+    <orderEntry type="module" module-name="deepstocks" />
+    <orderEntry type="module" module-name="bigdatabase" />
+    <orderEntry type="module" module-name="anonymizer" />
+    <orderEntry type="module" module-name="kepler" />
+    <orderEntry type="module" module-name="feedbackscreen" />
+    <orderEntry type="module" module-name="skeleton" />
+    <orderEntry type="module" module-name="webskeleton" />
+    <orderEntry type="module" module-name="wikipedia" />
+    <orderEntry type="module" module-name="dss" />
+    <orderEntry type="module" module-name="sparktest" />
+    <orderEntry type="module" module-name="textlearner" />
+    <orderEntry type="module" module-name="raspisensor" />
+    <orderEntry type="module" module-name="datacluster" />
+    <orderEntry type="module" module-name="tools" />
+    <orderEntry type="module" module-name="rfmapper" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="Nosetests" />
+    <option name="PROJECT_TEST_RUNNER" value="Nosetests" />
+  </component>
+</module>

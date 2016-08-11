@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../anonymizer/.idea/anonymizer.iml" filepath="$PROJECT_DIR$/../anonymizer/.idea/anonymizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bigdatabase/.idea/bigdatabase.iml" filepath="$PROJECT_DIR$/../bigdatabase/.idea/bigdatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../datahammer/datacluster/.idea/datacluster.iml" filepath="$PROJECT_DIR$/../../datahammer/datacluster/.idea/datacluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dataportal.iml" filepath="$PROJECT_DIR$/.idea/dataportal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../deepstocks/.idea/deepstocks.iml" filepath="$PROJECT_DIR$/../deepstocks/.idea/deepstocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dss/.idea/dss.iml" filepath="$PROJECT_DIR$/../dss/.idea/dss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../datahammer/feedbackscreen/.idea/feedbackscreen.iml" filepath="$PROJECT_DIR$/../../datahammer/feedbackscreen/.idea/feedbackscreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kepler/.idea/kepler.iml" filepath="$PROJECT_DIR$/../kepler/.idea/kepler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../raspisensor/.idea/raspisensor.iml" filepath="$PROJECT_DIR$/../raspisensor/.idea/raspisensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rfmapper/.idea/rfmapper.iml" filepath="$PROJECT_DIR$/../rfmapper/.idea/rfmapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../datahammer/skeleton/.idea/skeleton.iml" filepath="$PROJECT_DIR$/../../datahammer/skeleton/.idea/skeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sparktest/.idea/sparktest.iml" filepath="$PROJECT_DIR$/../sparktest/.idea/sparktest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../textlearner/.idea/textlearner.iml" filepath="$PROJECT_DIR$/../textlearner/.idea/textlearner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../datahammer/tools/.idea/tools.iml" filepath="$PROJECT_DIR$/../../datahammer/tools/.idea/tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../datahammer/webskeleton/.idea/webskeleton.iml" filepath="$PROJECT_DIR$/../../datahammer/webskeleton/.idea/webskeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wikipedia/.idea/wikipedia.iml" filepath="$PROJECT_DIR$/../wikipedia/.idea/wikipedia.iml" />
+    </modules>
+  </component>
+</project>

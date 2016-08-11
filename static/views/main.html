@@ -1,0 +1,20 @@
+<md-content layout-fill>
+<div id="toast_parent" ng-controller="ToolbarCtrl" ng-include="'views/toolbar.html'"></div>
+
+    <md-tabs style="max-width:1000px; max-height:597px; min-height:597px;" class="bg-image" md-border-bottom>
+      <md-tab label="Laitteet">
+        <md-content class="md-padding">
+        <div ng-controller="DevicesCtrl" ng-include="'views/devices.html'"></div>
+        </md-content>
+      </md-tab>
+      <md-tab label="Tiedostot">
+      <md-content style="max-width:1000px; max-height:520px;" class="md-padding">
+      <md-card>
+      <md-card-content>
+      <div ng-controller="FileCtrl" ng-include="'views/files.html'"></div>
+      </md-card-content>
+      </md-card>
+      </md-content>
+      </md-tab>
+    </md-tabs>
+</md-content>

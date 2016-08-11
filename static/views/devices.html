@@ -1,0 +1,61 @@
+
+<!-- WITHINGS DEVICE -->
+<md-card>
+  <md-card-content layout="row">
+    <div layout="row" layout-align="start center">
+      <ng-md-icon icon="watch" class="name" size="30"></ng-md-icon>
+      <p style="padding: 0px 10px">
+        Withings aktiviteettimittaus
+      </p>
+    </div>
+    <span flex></span>
+    <div layout="row" layout-align="end center">
+      <p ng-show="!w2ewithings.active" style="padding: 0 15px">
+        Liitä laite
+      </p>
+      <p ng-show="w2ewithings.active" style="padding: 0 15px">
+        Poista laiteliitos
+      </p>
+      <md-switch layout-align="end center" ng-click="linkDevice('w2ewithings')" class="md-secondary" ng-model="w2ewithings.active">
+      </md-switch>
+      <div layout-align="center center">
+        <p style="padding: 0 10px">
+          <md-button ng-click="showHelpDialog($event, 'Tästä näkymästä voit liittää Withings aktiivisuusrannekkeen tutkimustietokantaan painamalla \'Liitä laite\'-valintaa.')" class="md-icon-button md-primary" aria-label="Help">
+            <ng-md-icon icon="help"></ng-md-icon>
+          </md-button>
+        </p>
+      </div>
+    </div>
+  </md-card-content>
+</md-card>
+
+<!-- MOVES DEVICE -->
+<md-card>
+  <md-card-content layout="row">
+    <div layout="row" layout-align="start center">
+      <ng-md-icon icon="watch" class="name" size="30"></ng-md-icon>
+      <p style="padding: 0px 10px">
+        Moves aktiviteettimittaus
+      </p>
+    </div>
+    <span flex></span>
+    <div layout="row" layout-align="end center">
+      <p ng-show="!w2emoves.active" style="padding: 0 15px">
+        Liitä laite
+      </p>
+      <p ng-show="w2emoves.active" style="padding: 0 15px">
+        Poista laiteliitos
+      </p>
+      <md-switch layout-align="end center" ng-click="linkDevice('w2emoves')" class="md-secondary" ng-model="w2emoves.active">
+      </md-switch>
+      <div layout-align="center center">
+        <p style="padding: 0 10px">
+          <md-button ng-click="showHelpDialog($event, 'Tästä näkymästä voit liittää Moves aktiviteettisovelluksen tutkimustietokantaan painamalla \'Liitä laite\'-valintaa.')" class="md-icon-button md-primary" aria-label="Help">
+            <ng-md-icon icon="help"></ng-md-icon>
+          </md-button>
+        </p>
+      </div>
+    </div>
+  </md-card-content>
+</md-card>
+
